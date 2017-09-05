@@ -3,7 +3,7 @@ capitalize-name
 ======
 
 
-.. image:: https://img.shields.io/badge/pypi-v1.0.0-orange.svg
+.. image:: https://img.shields.io/badge/pypi-v1.0-orange.svg
     :target: https://pypi.python.org/pypi/capitalize-name
 
 .. image:: https://img.shields.io/badge/python-2.6%2C%202.7%2C%203.3+-blue.svg

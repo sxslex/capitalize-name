@@ -9,7 +9,10 @@ setup(
     ),
     author='SleX',
     author_email='sx.slex@gmail.com',
-    description='Returns the correct writing of a compound name, respecting the first letters of the names in upper case.',
+    description=(
+        'Returns the correct writing of a compound name, '
+        'respecting the first letters of the names in upper case.'
+    ),
     keywords=['capitalize', 'name', 'compound name', 'upper'],
     packages=['capitalize_name'],
     install_requires=[],
