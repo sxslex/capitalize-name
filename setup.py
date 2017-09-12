@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name='capitalize-name',
-    version='1.0',
+    version='1.0.1',
     url='https://github.com/sxslex/capitalize-name',
     download_url=(
-        'https://github.com/sxslex/capitalize-name/archive/v1.0.tar.gz'
+        'https://github.com/sxslex/capitalize-name/archive/v1.0.1.tar.gz'
     ),
     author='SleX',
     author_email='sx.slex@gmail.com',
@@ -15,7 +15,7 @@ setup(
     ),
     keywords=['capitalize', 'name', 'compound name', 'upper'],
     packages=['capitalize_name'],
-    install_requires=[],
+    install_requires=['click'],
     classifiers=[
         'License :: OSI Approved :: GNU General Public License (GPL)',
         'Natural Language :: English',
