@@ -23,11 +23,17 @@ Passes all original unittests.
 Usage
 =====
 
-.. code:: pycon
+.. code-block:: pycon
 
     >>> import capitalize_name
     >>> capitalize_name.capitalize('AV. DOM PEDRO DE ALMEIDA I')
     'Av. Dom Pedro de Almeida I'
+
+
+.. code-block:: bash
+
+    $ capitalizename "AV. DOM PEDRO DE ALMEIDA I"
+    Av. Dom Pedro de Almeida I
 
 
 Installation
@@ -44,4 +50,3 @@ Development
 ===========
 
 Use py.test to run unittests
-
