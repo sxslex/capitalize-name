@@ -3,7 +3,7 @@ capitalize-name
 ======
 
 
-.. image:: https://img.shields.io/badge/pypi-v1.0-orange.svg
+.. image:: https://img.shields.io/badge/pypi-v1.0.1-orange.svg
     :target: https://pypi.python.org/pypi/capitalize-name
 
 .. image:: https://img.shields.io/badge/python-2.6%2C%202.7%2C%203.3+-blue.svg
@@ -20,7 +20,7 @@ Returns the correct writing of a compound name, respecting the first letters of 
 Passes all original unittests.
 
 
-Usage
+Usage in python
 =====
 
 .. code-block:: pycon
@@ -29,6 +29,9 @@ Usage
     >>> capitalize_name.capitalize('AV. DOM PEDRO DE ALMEIDA I')
     'Av. Dom Pedro de Almeida I'
 
+
+Usage in command line
+=====
 
 .. code-block:: bash
 
