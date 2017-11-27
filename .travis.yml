@@ -9,4 +9,4 @@ python:
 install:
   - pip install -r requirements-development.txt
 script:
-  - py.test --cov=ppc_api tests/
+  - py.test --cov=capitalize_name tests/
